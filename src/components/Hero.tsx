@@ -1,9 +1,10 @@
+
 // src/components/Hero.tsx
 export default function Hero() {
   return (
     <section className="py-20 bg-background text-white">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="text-center mb-12">
+        <div id="hero" className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">Olá, eu sou Gabriel</h2>
         </div>
         
@@ -31,9 +32,9 @@ export default function Hero() {
           <div className="flex justify-center order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="/path/to/your/photo.jpg" 
+                // src={Photo}
                 alt="Gabriel - Desenvolvedor Back-End" 
-                className="w-80 h-80 object-cover rounded-full shadow-lg border-4 border-blue-500/20"
+                className="w-100 h-100 object-cover rounded-full shadow-lg border-4 border-green-300/60"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20"></div>
             </div>
