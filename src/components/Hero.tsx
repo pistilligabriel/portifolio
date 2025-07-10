@@ -12,7 +12,7 @@ export default function Hero() {
           {/* Coluna do texto */}
           <div className="text-justify space-y-4 order-2 lg:order-1">
             <p className="text-lg leading-relaxed font-extrabold">
-              Desenvolvedor Java | Spring Boot | Desenvolvedor Back-End | FullStack.
+              Desenvolvedor Java | Spring Boot | Back-End | FullStack.
             </p>
             
             <p className="text-lg leading-relaxed">
