@@ -42,7 +42,8 @@ export default function Hero() {
         </div>
         
         <div className="text-center">
-          <a href="#projects" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition-colors">
+          
+          <a href="#projects" className="bg-button text-white px-6 py-3 rounded shadow-xl border-2 border-green-500">
             Veja meus projetos
           </a>
         </div>
