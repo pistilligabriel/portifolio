@@ -1,4 +1,4 @@
-
+import Photo from '../assets/eu.png'
 // src/components/Hero.tsx
 export default function Hero() {
   return (
@@ -32,11 +32,11 @@ export default function Hero() {
           <div className="flex justify-center order-1 lg:order-2">
             <div className="relative">
               <img 
-                // src={Photo}
+                src={Photo}
                 alt="Gabriel - Desenvolvedor Back-End" 
                 className="w-100 h-100 object-cover rounded-full shadow-lg border-4 border-green-300/60"
               />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20"></div>
+              <div className="absolute inset-0 rounded-full"></div>
             </div>
           </div>
         </div>
