@@ -6,8 +6,8 @@ export default function ContactFooter() {
         <h3 className="text-2xl font-bold mb-4">Vamos conversar?</h3>
         <p className="mb-6">Entre em contato pelo e‑mail: gabrielcarra.p@hotmail.com</p>
         <div className="space-x-4">
-          <a href="https://github.com/pistilligabriel" className="underline">GitHub</a>
-          <a href="https://linkedin.com" className="underline">LinkedIn</a>
+          <a href="https://github.com/pistilligabriel" target="_blank" className="underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/gabriel-pistilli/" target="_blank" className="underline">LinkedIn</a>
         </div>
         <p className="text-sm text-gray-400 mt-8">© 2025 Gabriel Pistilli Carra. Todos os direitos reservados.</p>
       </div>

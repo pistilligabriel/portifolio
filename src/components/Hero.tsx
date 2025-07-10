@@ -11,20 +11,20 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-8">
           {/* Coluna do texto */}
           <div className="text-justify space-y-4 order-2 lg:order-1">
-            <p className="text-lg leading-relaxed">
-              Desenvolvedor Java | Spring Boot | Desenvolvedor Back-End focado em criar experiências incríveis.
+            <p className="text-lg leading-relaxed font-extrabold">
+              Desenvolvedor Java | Spring Boot | Desenvolvedor Back-End | FullStack.
             </p>
             
             <p className="text-lg leading-relaxed">
-              Apaixonado por tecnologia, estou em constante busca por inovação e crescimento na área de programação.
+              Sou apaixonado por tecnologia e estou sempre em busca de inovação e aprendizado constante na área de desenvolvimento de software.
             </p>
             
             <p className="text-lg leading-relaxed">
-              Atualmente, curso Análise e Desenvolvimento de Sistemas e possuo experiência em projetos pessoais e acadêmicos, utilizando tecnologias como Java, Spring Boot, MySQL, Hibernate, Swagger e JPA.
+              Atualmente, curso Análise e Desenvolvimento de Sistemas e tenho experiência com projetos pessoais e acadêmicos, utilizando tecnologias como <strong>Java, Spring Boot, MySQL, Hibernate, JPA</strong> e <strong>Swagger</strong>.
             </p>
             
             <p className="text-lg leading-relaxed">
-              Tenho uma sólida base em desenvolvimento Back-End e me dedico a criar soluções escaláveis e eficientes, sempre focado nas boas práticas de programação.
+              Tenho uma base sólida em desenvolvimento Back-End e foco na criação de soluções escaláveis, eficientes e alinhadas às boas práticas de programação.
             </p>
           </div>
           
