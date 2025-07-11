@@ -15,7 +15,7 @@ export default function ProjectsGrid() {
       id: 1,
       title: "Sistema de Suporte Chamados",
       description: "Sistema completo para abertura e atendimento de chamados internos de uma empresa com gerenciamento de usuários e chamados com autenticação JWT e operações CRUD.",
-      technologies: ["Java", "Spring Boot", "MySQL", "JPA"],
+      technologies: ["TypeScript", "Angular", "PrimeNG"],
       github: "https://github.com/pistilligabriel/SupportManagement",
       image: "🏢"
     },
@@ -23,18 +23,18 @@ export default function ProjectsGrid() {
       id: 2,
       title: "API Sistema de Suporte Chamados",
       description: "API Rest robusta para o sistema de suporte para gerenciamento dos chamados.",
-      technologies: ["Java", "Spring Boot", "MySQL", "JPA","Swagger"],
+      technologies: ["Java", "Spring Boot","JWT", "MySQL", "JPA","Swagger"],
       github: "https://github.com/pistilligabriel/SuporteApi",
       image: "☁"
     },
-    // {
-    //   id: 3,
-    //   title: "Sistema de Biblioteca",
-    //   description: "Aplicação para controle de empréstimos de livros com notificações e relatórios automatizados.",
-    //   technologies: ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
-    //   github: "https://github.com/usuario/projeto3",
-    //   image: "📚"
-    // },
+    {
+      id: 3,
+      title: "API Sistema PDV",
+      description: "API Rest robusta para o sistema de venda com gerenciamento de usuários, clientes, produtos, vendas, geração de relatórios.",
+      technologies: ["Java", "Spring Boot", "MySQL", "JWT", "JPA", "ModelMapper"],
+      github: "https://github.com/pistilligabriel/AngularSystem_Api",
+      image: "☁"
+    },
     // {
     //   id: 4,
     //   title: "Controle de Estoque",
