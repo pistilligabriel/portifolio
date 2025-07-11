@@ -11,7 +11,6 @@ export default function Skills() {
     { name: 'MySQL', icon: '🗄️' },
     { name: 'Hibernate', icon: '🔄' },
     { name: 'JPA', icon: '📊' },
-    { name: 'Swagger', icon: '📝'} ,
     { name: 'Postman', icon: '🚀'},
     { name: 'REST API', icon: '🔗' }
   ];
