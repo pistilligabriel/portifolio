@@ -23,7 +23,7 @@ export default function ProjectsGrid() {
       id: 2,
       title: "API Sistema de Suporte Chamados",
       description: "API Rest robusta para o sistema de suporte para gerenciamento dos chamados.",
-      technologies: ["Java", "Spring Boot","JWT", "MySQL", "JPA","Swagger"],
+      technologies: ["Java", "Spring Boot","JWT", "MySQL", "JPA","ModelMapper", "Maven"],
       github: "https://github.com/pistilligabriel/SuporteApi",
       image: "☁"
     },
@@ -31,7 +31,7 @@ export default function ProjectsGrid() {
       id: 3,
       title: "API Sistema PDV",
       description: "API Rest robusta para o sistema de venda com gerenciamento de usuários, clientes, produtos, vendas, geração de relatórios.",
-      technologies: ["Java", "Spring Boot", "MySQL", "JWT", "JPA", "ModelMapper"],
+      technologies: ["Java", "Spring Boot", "MySQL", "JWT", "JPA", "ModelMapper","Maven"],
       github: "https://github.com/pistilligabriel/AngularSystem_Api",
       image: "☁"
     },
