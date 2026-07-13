@@ -6,6 +6,7 @@ interface Skill {
 
 export default function Skills() {
   const technicalSkills: Skill[] = [
+    {name: 'VueJs', icon:'🎨' },
     { name: 'Java', icon: '☕' },
     { name: 'Spring Boot', icon: '🍃' },
     { name: 'MySQL', icon: '🗄️' },

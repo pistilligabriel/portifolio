@@ -20,7 +20,7 @@ export default function Hero() {
             </p>
             
             <p className="text-lg leading-relaxed">
-              Atualmente, curso Análise e Desenvolvimento de Sistemas e tenho experiência com projetos pessoais e acadêmicos, utilizando tecnologias como <strong>Java, Spring Boot, MySQL, Hibernate, JPA</strong> e <strong>Swagger</strong>.
+              Atualmente, curso Análise e Desenvolvimento de Sistemas e tenho experiência com projetos pessoais e acadêmicos, utilizando tecnologias como <strong>VueJs, Java, Spring Boot, SQL, Hibernate, JPA</strong> e <strong>Swagger</strong>.
             </p>
             
             <p className="text-lg leading-relaxed">

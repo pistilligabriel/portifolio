@@ -5,6 +5,7 @@ interface Project {
   description: string;
   technologies: string[];
   github?: string;
+  githubApi?: string;
   demo?: string;
   image?: string;
 }
@@ -15,34 +16,28 @@ export default function ProjectsGrid() {
       id: 1,
       title: "Sistema de Suporte Chamados",
       description: "Sistema completo para abertura e atendimento de chamados internos de uma empresa com gerenciamento de usuários e chamados com autenticação JWT e operações CRUD.",
-      technologies: ["TypeScript", "Angular", "PrimeNG"],
+      technologies: ["TypeScript", "Angular", "PrimeNG","Java", "Spring Boot","JWT", "MySQL", "JPA","ModelMapper", "Maven"],
       github: "https://github.com/pistilligabriel/SupportManagement",
+      githubApi: "https://github.com/pistilligabriel/SuporteApi",
       image: "🏢"
     },
     {
       id: 2,
-      title: "API Sistema de Suporte Chamados",
-      description: "API Rest robusta para o sistema de suporte para gerenciamento dos chamados.",
-      technologies: ["Java", "Spring Boot","JWT", "MySQL", "JPA","ModelMapper", "Maven"],
-      github: "https://github.com/pistilligabriel/SuporteApi",
+      title: "API Sistema PDV",
+      description: "API Rest robusta para o sistema de venda com gerenciamento de usuários, clientes, produtos, vendas, geração de relatórios.",
+      technologies: ["Java", "Spring Boot", "MySQL", "JWT", "JPA", "ModelMapper","Maven"],
+      githubApi: "https://github.com/pistilligabriel/AngularSystem_Api",
       image: "☁"
     },
     {
       id: 3,
-      title: "API Sistema PDV",
-      description: "API Rest robusta para o sistema de venda com gerenciamento de usuários, clientes, produtos, vendas, geração de relatórios.",
-      technologies: ["Java", "Spring Boot", "MySQL", "JWT", "JPA", "ModelMapper","Maven"],
-      github: "https://github.com/pistilligabriel/AngularSystem_Api",
-      image: "☁"
+      title: "Controle de Medicamentos UBS",
+      description: "Sistema web desenvolvido para o gerenciamento de medicamentos em Unidades Básicas de Saúde (UBS), permitindo o controle de estoque pelos profissionais da farmácia e a consulta da disponibilidade dos medicamentos pelos médicos.",
+      technologies: ["VueJS","Java", "Spring Boot", "PostgreSQL", "JPA","Maven","JWT"],
+      github: "https://github.com/pistilligabriel/ubsMedicamentosApi",
+      githubApi: "https://github.com/pistilligabriel/ubsMedicamentosApi",
+      image: "💊"
     },
-    // {
-    //   id: 4,
-    //   title: "Controle de Estoque",
-    //   description: "Sistema para gerenciamento de estoque com alertas de baixa quantidade e relatórios de movimentação.",
-    //   technologies: ["Java", "Spring Boot", "PostgreSQL", "JPA"],
-    //   github: "https://github.com/usuario/projeto4",
-    //   image: "📦"
-    // },
     // {
     //   id: 5,
     //   title: "Sistema de Agendamento",
@@ -106,6 +101,17 @@ export default function ProjectsGrid() {
           >
             <span>🐙</span>
             <span>GitHub</span>
+          </a>
+        )}
+         {project.githubApi && (
+          <a
+            href={project.githubApi}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-1 px-3 py-2 bg-gray-700/50 hover:bg-gray-600/50 text-gray-300 hover:text-white rounded-lg transition-colors text-sm"
+          >
+            <span>🐙</span>
+            <span>GitHub Api</span>
           </a>
         )}
         {project.demo && (
